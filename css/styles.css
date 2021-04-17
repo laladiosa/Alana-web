@@ -995,7 +995,7 @@
         color: #0077b5;
         border-color: #0077b5;
     }
-    /************* MEDIA QUERY ************/
+    /************* RESPONSIVE ************/
     
     @media (max-width: 1300px) {
         .tituloBan {
@@ -1067,6 +1067,10 @@
         }
         .fotoPop {
             display: none;
+        }
+        /* contact */
+        #form {
+            width: 80%;
         }
     }
     
