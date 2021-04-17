@@ -612,6 +612,11 @@
         color: #fff;
     }
     
+    .instaBoton a:hover {
+        text-decoration: none;
+        color: #fff;
+    }
+    
     .grid-box {
         width: 60px;
         height: 80px;
