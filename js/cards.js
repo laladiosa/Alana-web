@@ -28,3 +28,19 @@ function lazyLoad() {
     });
 
 }
+
+/***** MENU *****/
+let = menuBtn = document.getElementById('menuBtn');
+let = sideNav = document.getElementById('sideNav');
+let = menu = document.getElementById('menu');
+sideNav.style.left == "-220px";
+
+menuBtn.onclick = function() {
+    if (sideNav.style.left == "-220px") {
+        sideNav.style.left = "0";
+        menu.src = "./images/close.png";
+    } else {
+        sideNav.style.left = "-220px";
+        menu.src = "./images/menu.png";
+    }
+}
